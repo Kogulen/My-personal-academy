@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#173b63">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="My Academy">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<title>My Personal Academy</title>
+</head>
+<body>
+<header class="top">
+  <div><small>MY PERSONAL ACADEMY</small><h1 id="pageTitle">Welcome back!</h1><p>Learn consistently. Improve every day.</p></div>
+  <span class="version">Offline Edition 1.0</span>
+</header>
+<nav id="tabs" aria-label="Main navigation">
+  <button data-tab="home" class="active">⌂<span>Home</span></button>
+  <button data-tab="mba">🎓<span>MBA</span></button>
+  <button data-tab="english">📘<span>English</span></button>
+  <button data-tab="library">📁<span>Library</span></button>
+  <button data-tab="planner">▦<span>Planner</span></button>
+  <button data-tab="tutor">⌕<span>MBA Tutor</span></button>
+  <button data-tab="questions">❔<span>Questions</span></button>
+  <button data-tab="profile">☻<span>Profile</span></button>
+</nav>
+<main id="app" aria-live="polite"></main>
+<footer><span id="connection">Checking connection…</span><span>Saved on this device</span></footer>
+<script src="app.js"></script>
+</body>
+</html>
